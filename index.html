@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WORLDCOMPUTER| Soluciones digitales</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ENCABEZADO: cambiar el nombre de la empresa -->
+    <header class="encabezado" id="inicio">
+      <div class="contenedor barra">
+        <a class="marca" href="#inicio">WORLD<span>COMPUTER</span></a>
+        <nav aria-label="Navegación principal">
+          <a href="#INICIO">INICIO</a>
+          <a href="#SERVICIOS">SERVICIOS</a>
+          <a href="#EMPRESA"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg> EMPRESA</a>
+          <a href="#CONTACTANOS">CONTACTANOS</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECCIÓN 1: presentación -->
+      <section class="hero">
+        <div class="contenedor hero-contenido">
+          <div>
+            <p class="etiqueta">MEJORA TU EMPRESA CON NOSOTROS</p>
+            <h1>TE AYUDAMOS</h1>
+            <p>
+              EN WORLDCOMPUTER A FACILITAR EL MANEJO DE LA TECNOLOGIA DE TU
+              EMPRESA.
+            </p>
+            <a class="boton" href="#SERVICIOS"
+              >TE AYUDAMOS CON NUESTROS SERVICIOS</a
+            >
+          </div>
+          <img
+            src="img/imagen.png"
+            alt="Ilustración de una computadora y elementos digitales"
+            width="440"
+            height="320"
+          />
+        </div>
+      </section>
+
+      <!-- SECCIÓN 2: sobre la empresa -->
+      <section class="seccion" id="EMPRESA">
+        <div class="contenedor">
+          <p class="etiqueta">NOSTROS SOMOS</p>
+          <h2>EN WORLDCOMPUTER NOS ENCANTA LA TECNOLOGIA</h2>
+          <p class="texto-ancho">
+            Somos una empresa especializada en mejorar y construir sitios web
+            claros, accesibles y fáciles de utilizar.
+          </p>
+          <ul class="beneficios">
+            <li>Servicio al cliente</li>
+            <li>Soluciones rapidas y concisas</li>
+            <li>Trabajos 100% realizados por profecionales</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 3: tarjetas; aquí pueden añadir más -->
+      <section class="seccion fondo-claro" id="SERVICIOS">
+        <div class="contenedor">
+          <p class="etiqueta">REALIZAMOS ESTOS SERVICIOS</p>
+          <h2>Nuestros servicios</h2>
+          <div class="tarjetas">
+            <article class="tarjeta">
+              <div class="icono-servicio">🌐</div>
+              <h3>Diseño web</h3>
+              <p>Diseñamos páginas web atractivas y fáciles de navegar.</p>
+            </article>
+            <article class="tarjeta">
+              <div class="icono-servicio">🛠️</div>
+              <h3>Soporte técnico</h3>
+              <p>Ayudamos a resolver problemas tecnológicos cotidianos.</p>
+            </article>
+            <article class="tarjeta">
+              <div class="icono-servicio">📊</div>
+              <h3>Organización digital</h3>
+              <p>
+                Organizamos información para trabajar de forma más eficiente.
+              </p>
+            </article>
+            <article class="tarjeta">
+              <div class="icono-CONTABILIDA">💰</div>
+              <h3>Organización Contable</h3>
+              <p>
+                Organizamos tus ganancias,tus perdidas,tu ventas y mucho mas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 4: formulario visual (todavía no envía datos) -->
+      <section class="seccion" id="CONTACTANOS">
+        <div class="contenedor CONTACTANOS">
+          <div>
+            <p class="etiqueta">¿TIENES IDEAS?</p>
+            <h2>Contáctanos</h2>
+            <p>
+              ¿TIENES ALGO EN MENTE? NO DUDES EN HABLARNOS PARA EJECUTAR TUS
+              IDEAS.
+            </p>
+            <p class="aviso">
+              Este formulario es solo visual: no guarda ni envía información.
+            </p>
+          </div>
+          <form class="formulario" onsubmit="return false;">
+            <label for="nombre">Nombre</label>
+            <input
+              id="nombre"
+              name="nombre"
+              type="text"
+              placeholder="Tu nombre"
+              required
+            />
+            <label for="correo">Correo electrónico o numero telefonico</label>
+            <input
+              id="correo"
+              name="correo"
+              type="email"
+              placeholder="nombre@ejemplo.com"
+              required
+            />
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+            <button class="boton" type="button">Enviar (demostración)</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <div class="contenedor">
+        <p>WORLDCOMPUTER PROYECTO EDUCATIVO</p>
+      </div>
+    </footer>
+  </body>
+</html>
